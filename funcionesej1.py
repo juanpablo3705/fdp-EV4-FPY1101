@@ -19,7 +19,7 @@ def ingresar_usuario(diccionario):
     tiene_numero = False
 
     for caracter in contrasena_usuario:
-        if caracter in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        if caracter in "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ":
             tiene_letra = True
 
         if caracter in "0123456789":
